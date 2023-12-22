@@ -10,7 +10,14 @@ import { RouterOutlet } from '@angular/router';
   template: `
     <h1>If you are reading this...</h1>
     <p>Things have worked out well! 🎉</p>
+    <ol>
+      <li>Aleph</li>
+      <li>Jack frusciante è uscito dal gruppo</li>
+      <li>Il cielo è sempre più blu</li>
+    </ol>
   `,
-  styles: ``,
+  styles: `ol {
+    list-style-type: upper-roman;
+  }`,
 })
 export class AppComponent {}
